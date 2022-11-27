@@ -16,5 +16,14 @@ public class Main {
         System.out.println("book.year = " + book2.getYear());
         book2.setYear(1869);
         System.out.println("book.year = " + book2.getYear());
+
+        System.out.println(new Book("Великий Гэтсби",nameAuthor,1925));
+        System.out.println(new Book("Война и мир",nameAuthor2,1873));
+        System.out.println(book.equals(book2));
+        System.out.println(nameAuthor.equals(nameAuthor2));
+        System.out.println(book.hashCode() + " " + book2.hashCode());
+        System.out.println(nameAuthor.hashCode() + " " + nameAuthor2.hashCode());
+
     }
+
 }
